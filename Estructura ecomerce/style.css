@@ -1,0 +1,43 @@
+.cabecera
+{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+} 
+.menu
+{
+    display:flex;
+}
+.menu__item
+{
+    list-style: none;
+}
+
+.menu__link
+{
+color: #808080;
+text-decoration:none ;
+margin-right:2.5rem;
+text-transform:lowercase;
+}
+.menu__link.activo
+{
+color:#808080;
+font-weight:bold;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
+.recetas{
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    padding: 5rem 0 0 5rem;
+    width: 25%;
+}
